@@ -22,7 +22,6 @@ def clean_corpus(dt):  # cleaning the whole corpus
         post = dt['post'].iloc[i]
         post = clean_sent(post)
         post_ls.append(post)
-    dt['post_ls'] = dt['post'].apply(clean_sent)
     return post_ls
 
 
