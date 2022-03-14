@@ -29,5 +29,11 @@ dataset2.py
 Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe) on the extra data set 
 
 
+## Table of Main Reproducibility Results:
 
+| Models        | F1            | Accuracy      |
+| ------------- | ------------- | ------------- |
+| SVM(unigram)  | 52.6          | 53.0          |
+| SVM(TF-IDF)   | 53.2          | 54.0          |
+| SVM(GloVe)    | 38.5          | 39.8          |
 
