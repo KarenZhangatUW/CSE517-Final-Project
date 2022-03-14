@@ -1,5 +1,6 @@
 # CSE517-Final-Project
-Replication for the paper: Latent Hatred: A Benchmark for Understanding Implicit Hate Speech (2021)
+Replication for the paper: Latent Hatred: A Benchmark for Understanding Implicit Hate Speech (2021).
+
 In the paper, the authors train several models (including SVM, Bert, etc.) to complete two tasks: (1) distinguishing implicit hate speech from non-hate, and (2) categorizing implicit hate speech using one of the 6 classes in the fine-grained taxonomy and their best model is BERT based model. 
 
 ## Data Download Instruction:
