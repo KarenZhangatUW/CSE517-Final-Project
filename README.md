@@ -6,10 +6,10 @@ In the paper, the authors train several models (including SVM, Bert, etc.) to co
 ## Data Download Instruction:
 
 1. Data used for the 6-way classification task: 
-Per the authors' requirement in https://github.com/gt-salt/implicit-hate, you need to first complete a short survey through https://forms.gle/QxCpEbVp91Z35hWFA. Then follow this link to download: https://www.dropbox.com/s/24meryhqi1oo0xk/implicit-hate-corpus-nov-2021.zip?dl=0.
+Per the authors' requirement in https://github.com/gt-salt/implicit-hate, you need to first complete a short survey through https://forms.gle/QxCpEbVp91Z35hWFA. Then follow this link to download: https://www.dropbox.com/s/24meryhqi1oo0xk/implicit-hate-corpus-nov-2021.zip?dl=0. (Specificall, we used the dataset "implicit_hate_v1_stg2_posts.tsv" in the zip file.) 
 
 2. Data used for the binary classification task:
-Since the author of the original paper does not provide Cancel changesthe dataset, we used another similar dataset accessible at https://www.kaggle.com/c/nlp-getting-started/data. (You also need to log in to Kaggle and accept the rules to download this dataset.)
+Since the author of the original paper does not provide Cancel changesthe dataset, we used another similar dataset accessible at https://www.kaggle.com/c/nlp-getting-started/data. (You also need to log in to Kaggle and accept the rules to download this dataset. Specificall, we used the dataset "train.csv" in the zip file.)
 
 ## File Description:
 
