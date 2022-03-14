@@ -1,14 +1,14 @@
 # CSE517-Final-Project
 Replication for the paper: Latent Hatred: A Benchmark for Understanding Implicit Hate Speech (2021)
+In the paper, the authors train several models (including SVM, Bert, etc.) to complete two tasks: (1) distinguishing implicit hate speech from non-hate, and (2) categorizing implicit hate speech using one of the 6 classes in the fine-grained taxonomy and their best model is BERT based model. 
 
 ## Data Download Instruction:
 
-You could download the original data set through the following process: first complete a short survey through https://forms.gle/QxCpEbVp91Z35hWFA. Then follow this link to download: https://www.dropbox.com/s/24meryhqi1oo0xk/implicit-hate-corpus-nov-2021.zip?dl=0.
+1. Data used for the 6-way classification task: 
+Per the authors' requirement in https://github.com/gt-salt/implicit-hate, you need to first complete a short survey through https://forms.gle/QxCpEbVp91Z35hWFA. Then follow this link to download: https://www.dropbox.com/s/24meryhqi1oo0xk/implicit-hate-corpus-nov-2021.zip?dl=0.
 
-You could also download the data sets we processed based on the original data. In this repo, we offer x_train.csv, y_train.csv, x_test.csv, y_test.csv, which are posts and target (class) of training set and test set respectively.
-
-
-The extra data set is from https://www.kaggle.com/c/nlp-getting-started/data
+2. Data used for the binary classification task:
+Since the author of the original paper does not provide Cancel changesthe dataset, we used another similar dataset accessible at https://www.kaggle.com/c/nlp-getting-started/data. (You also need to log in to Kaggle and accept the rules to download this dataset.)
 
 ## File Description:
 
@@ -20,13 +20,17 @@ Benchmark_Models.py
 
 Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe), Naive Bayesian(TF-IDF), and Logistic Regression(TF-IDF) on the data set in the paper
 
-Bert_based_implicit_hate_classif...  
+Bert_based_implicit_hate_classification
 
-Python (Google Colab) codes for implementing the BERT model for classification
+Python (Google Colab) codes for implementing the BERT model for 6-way classification
 
 dataset2.py
 
 Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe) on the extra data set 
+
+Bert_based_implicit_hate_classification
+
+Python (Google Colab) codes for implementing the BERT model for 6-way classification
 
 
 ## Table of Main Reproducibility Results:
@@ -36,4 +40,5 @@ Python codes for implementing the benchmark models for classification including 
 | SVM(unigram)  | 52.6          | 53.0          |
 | SVM(TF-IDF)   | 53.2          | 54.0          |
 | SVM(GloVe)    | 38.5          | 39.8          |
+| BERT          | 59.1          | 59.3          |
 
