@@ -10,11 +10,17 @@ You could also download the data sets we processed based on the original data. I
 
 ## File Description:
 
-preprocessing.py  Python codes for cleaning and splitting the originl data set
+preprocessing.py  
 
-Benchmark_Models.py  Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe), Naive Bayesian(TF-IDF), and Logistic Regression(TF-IDF) 
+Python codes for cleaning and splitting the originl data set
 
-Bert_based_implicit_hate_classif...  Python (Google Colab) codes for implementing the BERT model for classification
+Benchmark_Models.py  
+
+Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe), Naive Bayesian(TF-IDF), and Logistic Regression(TF-IDF) 
+
+Bert_based_implicit_hate_classif...  
+
+Python (Google Colab) codes for implementing the BERT model for classification
 
 
 
