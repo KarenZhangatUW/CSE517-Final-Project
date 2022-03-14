@@ -13,25 +13,25 @@ Since the author of the original paper does not provide Cancel changesthe datase
 
 ## File Description:
 
-preprocessing.py  
+1. preprocessing.py  
 
 Python codes for cleaning and splitting the originl data set
 
-Benchmark_Models.py  
+2. Benchmark_Models.py  
 
 Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe), Naive Bayesian(TF-IDF), and Logistic Regression(TF-IDF) on the data set in the paper
 
-Bert_based_implicit_hate_classification
+3. Bert_based_implicit_hate_classification
 
 Python (Google Colab) codes for implementing the BERT model for 6-way classification
 
-dataset2.py
+4. dataset2.py
 
-Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe) on the extra data set 
+Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe) for binary classification on the extra dataset 
 
-Bert_based_implicit_hate_classification
+5. Bert_based_implicit_hate_classification
 
-Python (Google Colab) codes for implementing the BERT model for 6-way classification
+Python (Google Colab) codes for implementing the BERT model for binary classification on the extra dataset 
 
 
 ## Table of Main Reproducibility Results:
