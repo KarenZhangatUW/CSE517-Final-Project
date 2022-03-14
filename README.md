@@ -36,10 +36,11 @@ Since the author of the original paper does not provide Cancel changesthe datase
 | BERT          | 59.1          | 59.3          |
 
 2. Binary Classification
+
 | Models        | F1            | Accuracy      |
 | ------------- | ------------- | ------------- |
-| SVM(unigram)  | 52.6          | 53.0          |
-| SVM(TF-IDF)   | 53.2          | 54.0          |
-| SVM(GloVe)    | 38.5          | 39.8          |
-| BERT          | 59.1          | 59.3          |
+| SVM(unigram)  | 78.7          | 78.9          |
+| SVM(TF-IDF)   |79.3           | 79.7          |
+| SVM(GloVe)    | 69.3          | 69.5          |
+| BERT          | 81.0          | 80.1          |
 
