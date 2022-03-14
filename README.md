@@ -26,6 +26,16 @@ Since the author of the original paper does not provide Cancel changesthe datase
 
 ## Table of Main Reproducibility Results:
 
+1. Six-way Classification
+
+| Models        | F1            | Accuracy      |
+| ------------- | ------------- | ------------- |
+| SVM(unigram)  | 52.6          | 53.0          |
+| SVM(TF-IDF)   | 53.2          | 54.0          |
+| SVM(GloVe)    | 38.5          | 39.8          |
+| BERT          | 59.1          | 59.3          |
+
+2. Binary Classification
 | Models        | F1            | Accuracy      |
 | ------------- | ------------- | ------------- |
 | SVM(unigram)  | 52.6          | 53.0          |
