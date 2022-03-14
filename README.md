@@ -21,7 +21,7 @@ Since the author of the original paper does not provide Cancel changesthe datase
 
 4. dataset2.py: Python codes for implementing the benchmark models for classification including SVM(unigram), SVM(TF-IDF), SVM(GloVe) for binary classification on the extra dataset (including training and evaluation) 
 
-5. Bert_based_implicit_hate_classification.ipynb:  Python (Google Colab) codes for implementing the BERT model for binary classification on the extra dataset (including transformer, training and evaluation) 
+5. Bert_based_disaster_classification.ipynb:  Python (Google Colab) codes for implementing the BERT model for binary classification on the extra dataset (including transformer, training and evaluation) 
 
 
 ## Table of Main Reproducibility Results:
